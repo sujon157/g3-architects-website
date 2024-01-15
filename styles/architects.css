@@ -1,0 +1,44 @@
+/* work sans font from google font  */
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Work Sans", sans-serif;
+    font-family: 'Open Sans' sans-serif;
+    font-family: 'Lato' , sans-serif;
+}
+    /* Header styles */
+
+header{
+    background: rgba(255, 144, 14, 0.1);
+    padding: 50px 240px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 30px;
+    font-size: 1rem;
+    font-weight: 500px;
+  
+
+
+}
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+nav-title {
+   
+font-size: 3rem;
+font-weight: 700;
+line-height: 53px;
+color: #131313;
+
+
+}
