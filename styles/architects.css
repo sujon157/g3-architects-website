@@ -10,12 +10,13 @@
 
 .btn-primary {
 
-    font-size: 1.4rem;
+    font-size: 1.25rem;
     font-weight: 600;
     width: 180px;
     height: 64px;
-
+    background-color: #FF900E;
     border-radius: 8px;
+    margin: 32px 0 50px 0;
 }
 
 /* Header styles */
@@ -79,6 +80,28 @@ nav-title {
 
     font-size: 1rem;
     font-weight: 400;
+}
+.banner img{
+    width: 100%;
+}
+/* Responsive media queries:Mobile  device */
+@media screen and (max-width:576px){
+
+   header{
+    padding: 50px;
+   } 
+   nav {
+    flex-direction: column;
+   }
+}
 
 
+/* Responsive media queries:Medium  device>>Tablet */
+@media screen and (min-width:576px) and  (max-width:992px){
+        header{
+            padding:20px;
+        }
+    nav {
+        flex-direction: column;
+    }
 }
